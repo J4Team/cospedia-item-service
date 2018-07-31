@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: item-service
+server:
+  port: 8201
+eureka:
+  client:
+    service-url : http://localhost:8761/eureka
