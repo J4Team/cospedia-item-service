@@ -1,7 +1,5 @@
 package com.cospedia.itemservice.model;
 
-import org.springframework.data.annotation.Id;
-
 public class Item {
 
 	private String id;

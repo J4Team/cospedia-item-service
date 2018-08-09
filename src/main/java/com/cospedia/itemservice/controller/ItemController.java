@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController(value = "items")
 public class ItemController {
 
-	@GetMapping(value = "/")
-	public String findAll(@PathVariable String id) {
+	@RequestMapping(value = "/")
+	public String findAll() {
 		return "{\"message\":\"I am item service\"}";
 	}
 }
